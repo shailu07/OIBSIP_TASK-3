@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Temp convertor</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="temp.css">
+    </head>
+    <body>
+        <script src="temp.js"></script>
+        <div class="main">
+           
+            <form id="a" onsubmit="TempConverter(); return false">
+                <label for="temp">Temperature Converter :</label>
+                <br><br><br>
+                <input type="number" name="ipdegree" id="ipdegree" value="0" required>
+                <select name="chosentype" id="choosentype">
+                    <option >Input Type</option>
+                    <option value="C">&deg;C</option>
+                    <option value="F">&deg;F</option>
+                </select><br><br>
+                <label> Result :</label>
+                <br>
+                <input type="submit"  name ="Convert" id="Convert">
+                <br>
+                <b><span id="covtresult" style="color: white; font-size: 35px;"></span></b>
+            </form>
+        </div>
+        
+
+    </body>
+</html>
+
+        
+
+     
